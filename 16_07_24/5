@@ -1,0 +1,20 @@
+//Write a program to find the square, cube of the given decimal number
+import java.util.Scanner;
+
+public class SquareCubeCalculator {
+    public static void main(String[] args) {
+        Scanner S = new Scanner(System.in);
+        
+        System.out.println("Enter a decimal number:");
+        double n = S.nextDouble();
+        
+        double square = n * n;
+        double cube = n * n * n;
+        
+        System.out.println("Square Number: " + square);
+        System.out.println("Cube Number: " + cube);
+        
+        // Close the scanner
+        scanner.close();
+    }
+}
