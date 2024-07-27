@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+class comp {
+    public static void main(String[] args) {
+        int a, b, i, j;
+        Scanner S = new Scanner(System.in);
+        System.out.println("Enter 2 numbers");
+        a = S.nextInt();
+        b = S.nextInt();
+        for (i = a; i <= b; i++) {
+            int c = 0;
+            for (j = 1; j <= i; j++) {
+                if (i % j == 0) {
+                    c++;
+                }
+            }
+            if (c > 2) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+//OUTPUT
+//Enter 2 numbers
+//4
+//6
+//8
+//9
+//10
