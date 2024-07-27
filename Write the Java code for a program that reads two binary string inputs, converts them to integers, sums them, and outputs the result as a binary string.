@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+class add_binary {
+	public static void main(String[] args)
+	{
+		String a,b;
+		int num1,num2,sum;
+		Scanner S = new Scanner(System.in);
+		a = S.next();
+		b = S.next();
+		num1 = Integer.parseInt(a,2);
+		num2 = Integer.parseInt(b,2);
+		sum = num1 +num2;
+		String result = Integer.toBinaryString(sum);
+		System.out.println(result);
+	}
+}
+//OUTPUT
+//1010
+//1101
+//10111
+
