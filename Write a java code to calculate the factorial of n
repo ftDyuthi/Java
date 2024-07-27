@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+class factn
+{
+	public static void main(String[] args)
+	{
+		int n,i=1,s=1;
+		Scanner S = new Scanner(System.in);
+		System.out.println("Enter number");
+		n = S.nextInt();
+		while(i<=n)
+		{
+			s=s*i;
+			i++;
+		}
+		System.out.println(s);
+	}
+}
+//OUTPUT
+//Enter number
+//5
+//120
