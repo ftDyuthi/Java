@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+
+class dtb
+{
+	public static void main(String[] args)
+	{
+		Scanner S = new Scanner(System.in);
+		System.out.println("Enter a decimal number");
+		int decimal =  S.nextInt();
+		String binary = Integer.toBinaryString(decimal);
+		System.out.println("Binary representation: " + binary);
+	}
+}
+//OUTPUT
+//Enter a decimal number:
+//10
+//Binary representation: 1010
