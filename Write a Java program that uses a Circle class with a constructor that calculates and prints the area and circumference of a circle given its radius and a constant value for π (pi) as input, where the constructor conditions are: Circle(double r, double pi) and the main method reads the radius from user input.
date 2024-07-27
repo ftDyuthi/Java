@@ -1,0 +1,28 @@
+import java.util.*;
+import java.io.*;
+
+class circle
+{
+	circle(){}
+	
+	circle(double r,double pi){
+		double area=pi*r*r;
+		double circum=2*pi*r;
+		System.out.println("area="+area+"circumference="+circum);
+	}
+
+}
+
+class circ{
+	public static void main(String[] args){
+	double r,pi=3.14;
+	Scanner s=new Scanner(System.in);
+	r=s.nextDouble();
+	circle a =new circle(r,pi);
+
+
+		
+}
+}
+//OUTPUT
+//area = 78.5 circumference = 31.400000000000002
