@@ -1,0 +1,11 @@
+class Conc
+{
+	public static void main(String[] args)
+	{
+		String str1 = "the great wall";
+		String str2 = "of china";
+		System.out.println(str1+""+str2);
+	}
+}
+//OUTPUT
+//the great wall of china
