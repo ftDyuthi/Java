@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.Scanner;
+class circle
+{
+	public static void main(String[] args)
+	{
+		float r,area,c;
+		Scanner S = new Scanner(System.in);
+		r = S.nextFloat();
+		area = 3.14f*r*r;
+		c = 3.14f*2*r;
+		System.out.println("Area= "+ area);
+		System.out.println("Circumference= "+ c);
+	}
+}
+//OUTPUT
+//Area = 78.5
+//Circumference = 31.400002
