@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+
+class bank_acc
+{
+	long 
+	void cal()
+	{
+		int x,y,z;;
+		Scanner s=new Scanner(System.in);
+		x=s.nextInt();
+		y=s.nextInt();
+		z=s.nextInt();
+		if(x>y&&x>z)
+		{System.out.println(x+"is greater");
+		}
+		else if (y>x && y>z)
+		{ System.out.println(y+"is greater");
+		}
+		else
+		{System.out.println(z+" is greater");
+		}
+	}
+}
+class maxi
+{
+	public static void main(String[] args)
+	{
+		ma si = new ma();
+		si.cal();
+
+		
+		 
+	}
+}
+//OUTPUT
+//Enter three numbers:
+//5
+//9
+//3
+//9 is greater
+
